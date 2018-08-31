@@ -13,6 +13,7 @@ namespace app\api;
 
 use app\api\Common;
 use app\models\Doctor;
+use app\models\Patient;
 use app\modules\hr\models\Empsalary;
 use app\modules\hr\models\OrgConfigmaster;
 use app\modules\hr\models\PayrollConfigTemplate;
@@ -323,6 +324,17 @@ class ApiHr
         $data = Doctor::find()
             ->select(['doctor.id as id',
                 'CONCAT(doctor.firstname," ",doctor.lastname) as Fullname'])
+            ->where(['id'=> $id_card])
+            ->asArray()
+            ->all();
+        return $data;
+    }
+
+    public static function getEmpNameForCreateByInIdcardpatient($id_card)
+    {
+        $data = Patient::find()
+            ->select(['patient.id as id',
+                'CONCAT(patient.name) as Fullname'])
             ->where(['id'=> $id_card])
             ->asArray()
             ->all();

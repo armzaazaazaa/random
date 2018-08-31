@@ -19,16 +19,20 @@ $(document).ready(function () {
     });
 
 
-
     $('#btnAddNewsymptom').on("click", function () {
         initForm('btnSaveActivitysymptom');
-            $('#hide_activityedit_symptom').val('');
-            $('#name').val('');
+        $('#hide_activityedit_symptom').val('');
+        $('#name').val('');
+        $('#diagnosis').val('');
+        $('#lab').val('');
+        $('#pan').val('');
+        $('#comment').val('');
+        $('#id_send').val('');
 
-        // $('.select2').css({ "width": "100%" });
-        // $('.select2').select2();
+
+        $('.select2').css({ "width": "100%" });
+        $('.select2').select2();
         $('#modalfrmAddsymptom').removeAttr('tabindex')
-
 
 
     });
@@ -42,19 +46,20 @@ function deletepatient(id, valselect) { //อันนี้ยกเลิก�
         type: 'POST',
         success: function (data) {
             if (parseInt(data) == 1) {
-                showDeleteSuccess();
+                //  showDeleteSuccess();
                 console.log(data);
-                $.pjax.reload({container: "#pjax_tb_patient"});  //Reload GridView
+                $.pjax.reload({container: "#pjax_tb_symptom"});  //Reload GridView
 
                 selecttab(valselect);
             } else {
-                showDeleteError();
+                //   showDeleteError();
                 console.log(data);
 
             }
         }
     });
 }
+
 function savepatient(idselectform) {
     if (idselectform == 1) {
         var datavar = $('#frmAddsymptom').serialize();
@@ -83,11 +88,12 @@ function savepatient(idselectform) {
         }
     });
 }
-function updatepatient(id) {//แก้ไขเน้อออออออออออ
+
+function updatesymptom(id) {//แก้ไขเน้อออออออออออ
     // console.log(id);
     initForm('frmAddsymptom');//idฟอมมมมม
     $.ajax({
-        url: 'updatepatient',
+        url: 'updatesymptom',
         data: {id: id,},
         type: 'POST',
         success: function (data) {
@@ -96,29 +102,33 @@ function updatepatient(id) {//แก้ไขเน้ออออออออ�
 
             $('#hide_activityedit_symptom').val(data.id);
             $('#id_patient').val(data.id_patient);
+            $('#diagnosis').val(data.diagnosis);
+            $('#lab').val(data.lab);
+            $('#pan').val(data.plan);
+            $('#comment').val(data.comment);
+            $('#id_send').val(data.id_send);
             $('#modalfrmAddsymptom').modal();
         }
     });
 }
-
 
 function savepatient() {//อันนี้นี้เซฟเน้ออออออออออออออออ
     var datavar = $('#frmAddsymptom').serialize();
 
     console.log(datavar);
     $.ajax({
-        url: 'savepatient',
+        url: 'savesymptom',
         data: datavar,
         type: 'POST',
         success: function (data) {
             console.log(data);
             if (parseInt(data) == 1) {
-                showSaveSuccess();
+                //showSaveSuccess();
                 initForm('frmAddsymptom');
-                $.pjax.reload({container: "#pjax_tb_patient"});  //Reload GridView
+                $.pjax.reload({container: "#pjax_tb_symptom"});  //Reload GridView
             }
             else {
-                showSaveError();
+                // showSaveError();
             }
         }
     });

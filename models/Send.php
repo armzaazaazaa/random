@@ -12,6 +12,7 @@ use Yii;
  * @property int $id_patient
  * @property string $date
  * @property int $id_doctor_ receive
+ * @property int $id_symtom มาจากอาการ
  */
 class Send extends \yii\db\ActiveRecord
 {
@@ -29,8 +30,8 @@ class Send extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['id_doctor', 'id_patient', 'date', 'id_doctor_ receive'], 'required'],
-            [['id_doctor', 'id_patient', 'id_doctor_ receive'], 'integer'],
+            [['id_doctor', 'id_patient', 'date', 'id_doctor_ receive', 'id_symtom'], 'required'],
+            [['id_doctor', 'id_patient', 'id_doctor_ receive', 'id_symtom'], 'integer'],
             [['date'], 'safe'],
         ];
     }
@@ -46,6 +47,7 @@ class Send extends \yii\db\ActiveRecord
             'id_patient' => 'Id Patient',
             'date' => 'Date',
             'id_doctor_ receive' => 'Id Doctor  Receive',
+            'id_symtom' => 'Id Symtom',
         ];
     }
 }

@@ -37,7 +37,7 @@ $this->registerJsFile(Yii::$app->request->baseUrl . '/js/hospital/patient.js?t='
                 <i class="ace-icon fa fa-home home-icon"></i>
                 <a href="#">Home</a>
             </li>
-            <li class="active">กล่องจดหมาย</li>
+            <li class="active">การจัดการคนไข้</li>
         </ul><!-- /.breadcrumb -->
         <!-- /section:basics/content.searchbox -->
     </div>
@@ -58,7 +58,7 @@ $this->registerJsFile(Yii::$app->request->baseUrl . '/js/hospital/patient.js?t='
                                         <?php
                                         Modal::begin([
                                             'id' => 'modalfrmAddpatient',
-                                            'header' => '<strong>จัดการlevel </strong>',
+                                            'header' => '<strong>บันทึกคนไข้ </strong>',
                                             'toggleButton' => [
                                                 'id' => 'btnAddNewpatient',
                                                 'label' => '<i class="fa fa-plus-circle"></i>  เพิ่ม ',
@@ -81,39 +81,39 @@ $this->registerJsFile(Yii::$app->request->baseUrl . '/js/hospital/patient.js?t='
                                                 </div>
 
                                                 <div class="box-body">
-                                                    <label>ชื่อlevel <span>*</span></label>
+                                                    <label>ชื่อ-นามสกุล <span>*</span></label>
                                                     <input id="name" name="name"
                                                            data-required="true"
                                                            class="form-control name" type="text"
-                                                           placeholder="ชื่อ">
+                                                           placeholder="ชื่อคนไข้">
                                                 </div>
                                                 <div class="box-body">
-                                                    <label>ชื่อlevel <span>*</span></label>
+                                                    <label>เพศ <span>*</span></label>
                                                     <input id="gender" name="gender"
                                                            data-required="true"
                                                            class="form-control model_name" type="text"
-                                                           placeholder="ชื่อ">
+                                                           placeholder="เพศ">
                                                 </div>
                                                 <div class="box-body">
-                                                    <label>ชื่อlevel <span>*</span></label>
+                                                    <label>อายุ <span>*</span></label>
                                                     <input id="age" name="age"
                                                            data-required="true"
                                                            class="form-control age" type="text"
-                                                           placeholder="ชื่อ">
+                                                           placeholder="อายุ">
                                                 </div>
                                                 <div class="box-body">
-                                                    <label>ชื่อlevel <span>*</span></label>
+                                                    <label>ส่วนสูง <span>*</span></label>
                                                     <input id="height" name="height"
                                                            data-required="true"
                                                            class="form-control height" type="text"
-                                                           placeholder="ชื่อ">
+                                                           placeholder="ส่วนสูง">
                                                 </div>
                                                 <div class="box-body">
-                                                    <label>ชื่อlevel <span>*</span></label>
+                                                    <label>น้ำหนัก <span>*</span></label>
                                                     <input id="weight" name="weight"
                                                            data-required="true"
                                                            class="form-control weight" type="text"
-                                                           placeholder="ชื่อ">
+                                                           placeholder="น้ำหนัก">
                                                 </div>
 
 

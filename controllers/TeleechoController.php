@@ -126,28 +126,32 @@ class TeleechoController extends Controller
 
         throw new NotFoundHttpException('The requested page does not exist.');
     }
+
     //////////////////////////////////////อาการ ////////////////////////////////////////////////////////////
     public function actionSymptom()
     {
-        $modelpatient = Patient ::find()->asArray()->all();
-        $modeldocter =  Doctor ::find()->asArray()->all();
-        $showsymtom = new Symtom();
-        $showsymtomsee = $showsymtom->search(\Yii::$app->request->queryParams);
+        $modelpatient = Patient::find()->asArray()->all();
+        $modeldocter = Doctor::find()->asArray()->all();
+        $doctorid = 1;
 
-        return $this->render('symptom',[
-        'showsymtom' => $showsymtom,
-         'showsymtomsee' => $showsymtomsee,
-         'modelpatient' => $modelpatient,
-         'modeldocter'=>$modeldocter
+        $showsymtomprovider = new Symtom();
+        $showsymtomsearch = $showsymtomprovider->search(\Yii::$app->request->queryParams,$doctorid);
+
+        return $this->render('symptom', [
+
+            'showsymtomprovider'=> $showsymtomprovider,
+            'showsymtomsearch'=> $showsymtomsearch,
+
+            'modelpatient' => $modelpatient,
+            'modeldocter' => $modeldocter
 
         ]);
     }
+
     public function actionSavesymptom()
     {
         if (Yii::$app->request->isAjax) {
             $post = Yii::$app->request->post();
-//             print_r($post);
-//             exit();
 
 
             if ($post['hide_activityedit_symptom'] != '') {
@@ -158,8 +162,8 @@ class TeleechoController extends Controller
                 $model->id_file = 1;   //$post['height'];
                 $model->pasthistory = 'dd'; //$post['height']; // ประวัติที่ผ่านมา
                 $model->preentillness = 'ff';  //$post['height']; // ผู้ป่วยปัจจุบัน
-                $model->lab	 = $post['lad'];
-                $model->ekg	 = 'ekg';//$post['weight'];
+                $model->lab = 'fffff'; //$post['lab'];
+                $model->ekg = 'ekg';//$post['weight'];
                 $model->diagnosis = $post['diagnosis'];
                 $model->plan = $post['pan'];
                 $model->comment = $post['comment'];
@@ -181,8 +185,8 @@ class TeleechoController extends Controller
                 $model->id_file = 1;   //$post['height'];
                 $model->pasthistory = 'dd'; //$post['height']; // ประวัติที่ผ่านมา
                 $model->preentillness = 'ff';  //$post['height']; // ผู้ป่วยปัจจุบัน
-                $model->lab	 = $post['lad'];
-                $model->ekg	 = 'ekg';//$post['weight'];
+                $model->lab = $post['lad'];
+                $model->ekg = 'ekg';//$post['weight'];
                 $model->diagnosis = $post['diagnosis'];
                 $model->plan = $post['pan'];
                 $model->comment = $post['comment'];
@@ -203,23 +207,40 @@ class TeleechoController extends Controller
         }
     }
 
-
+    public function actionUpdatesymptom()
+    {
+        if (Yii::$app->request->isAjax) {
+            $id = Yii::$app->request->post('id');
+            if (($model = Symtom::findOne(['id' => $id])) !== null) {
+                \Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
+                return $model;
+            } else {
+                throw new NotFoundHttpException('The requested page does not exist.');
+            }
+        }
+    }
 
 
     //////////////////////////////////////อาการ ////////////////////////////////////////////////////////////
 
 
-
-
-
-
-
-
-
-
     public function actionShowresults()
     {
-        return $this->render('results');
+        $modelpatient = Patient::find()->asArray()->all();
+        $modeldocter = Doctor::find()->asArray()->all();
+        $doctorid = 1;
+
+        $showsymtomprovider = new Symtom();
+        $showsymtomsearch = $showsymtomprovider->search(\Yii::$app->request->queryParams,$doctorid);
+
+
+        return $this->render('results',[
+            'modelpatient'=>$modelpatient,
+            'modeldocter'=>$modeldocter,
+            'showsymtomprovider'=>$showsymtomprovider,
+            'showsymtomsearch'=>$showsymtomsearch,
+
+        ]);
     }
 
 
@@ -235,9 +256,9 @@ class TeleechoController extends Controller
         $showpatient = new Patient();
         $showsee = $showpatient->search(\Yii::$app->request->queryParams);
 
-        return $this->render('patient',[
-            'showpatient'=>$showpatient,
-            'showsee' =>$showsee
+        return $this->render('patient', [
+            'showpatient' => $showpatient,
+            'showsee' => $showsee
 
         ]);
     }
@@ -254,10 +275,10 @@ class TeleechoController extends Controller
                 $model = Patient::findOne(['id' => $post['hide_activityedit_patient']]);
                 $model->name = $post['name'];
                 $model->gender = $post['gender'];
-                $model->age = $post['age'];;
-                $model->height = $post['height'];;
+                $model->age = $post['age'];
+                $model->height = $post['height'];
                 $model->weight = $post['weight'];
-                $model->id_doctor = $post['id_doctor'];
+                $model->id_doctor = '1';//$post['id_doctor'];
                 $model->date = date('Y-m-d ');
 
                 $model->save();
@@ -273,10 +294,10 @@ class TeleechoController extends Controller
                 $model = new Patient();
                 $model->name = $post['name'];
                 $model->gender = $post['gender'];
-                $model->age = $post['age'];;
-                $model->height = $post['height'];;
+                $model->age = $post['age'];
+                $model->height = $post['height'];
                 $model->weight = $post['weight'];
-                $model->id_doctor = $post['id_doctor'];
+                $model->id_doctor = '1';//$post['id_doctor'];
                 $model->date = date('Y-m-d ');
 
                 $model->save();
@@ -310,18 +331,18 @@ class TeleechoController extends Controller
     {
         if (Yii::$app->request->isAjax) {
             $post = Yii::$app->request->post();
-           print_r($post);
-           exit();
+            print_r($post);
+            exit();
         }
     }
 
     public function actionLogin()
     {
 
-            $postValue = Yii::$app->request->get();
+        $postValue = Yii::$app->request->get();
 
-            print_r($postValue);
-            exit();
+        print_r($postValue);
+        exit();
 
     }
 

@@ -21,7 +21,7 @@ use yii\helpers\Url;
 use yii\data\ActiveDataProvider;
 use yii\widgets\ListView;
 use kartik\select2\Select2;
-
+use app\api\ApiHr;
 
 use app\models\Province;
 
@@ -112,7 +112,7 @@ $this->registerJsFile(Yii::$app->request->baseUrl . '/js/hospital/symptom.js?t='
                                                 <label for="monthselect"
                                                        class="col-sm-4 control-label">ผลตรวจทางห้องปฏิบัติการ</label>
                                                 <div class="col-sm-8">
-                                                    <textarea class="form-control" rows="3" id="lab" name="lab"></textarea>
+                                                    <textarea type="text" class="form-control" rows="3" id="lab" name="lab"></textarea>
                                                 </div>
                                             </div>
                                             <br>  <br><br>  <br>
@@ -120,7 +120,7 @@ $this->registerJsFile(Yii::$app->request->baseUrl . '/js/hospital/symptom.js?t='
                                                 <label for="monthselect"
                                                        class="col-sm-4 control-label">แผนการรักษา</label>
                                                 <div class="col-sm-8">
-                                                    <textarea class="form-control" rows="3" id="pan" name="pan"></textarea>
+                                                    <textarea type="text" class="form-control" rows="3" id="pan" name="pan"></textarea>
                                                 </div>
                                             </div>
                                             <br>  <br><br>  <br>
@@ -128,7 +128,7 @@ $this->registerJsFile(Yii::$app->request->baseUrl . '/js/hospital/symptom.js?t='
                                                 <label for="monthselect"
                                                        class="col-sm-4 control-label">comment</label>
                                                 <div class="col-sm-8">
-                                                    <textarea class="form-control" rows="3" id="comment" name="comment"></textarea>
+                                                    <textarea type="text" class="form-control" rows="3" id="comment" name="comment"></textarea>
                                                 </div>
                                             </div>
 
@@ -141,7 +141,7 @@ $this->registerJsFile(Yii::$app->request->baseUrl . '/js/hospital/symptom.js?t='
                                                             class="form-control select2">
                                                         <option value="">ไม่ส่ง</option>
                                                         <?php foreach ($modeldocter as $k => $v) { ?>
-                                                            <option value="<?php echo $v['id'] ?>"><?php echo $v['firstname'] ?></option>
+                                                            <option value="<?php echo $v['id'] ?>"><?php echo $v['firstname']." "." ".$v['lastname'] ?></option>
                                                         <?php }; ?>
                                                     </select>
                                                 </div>
@@ -173,8 +173,8 @@ $this->registerJsFile(Yii::$app->request->baseUrl . '/js/hospital/symptom.js?t='
                             <?php
                             Pjax::begin(['id' => 'pjax_tb_savesymptom']);
                             echo GridView::widget([
-                                'dataProvider' => $showsymtomsee,
-                                'filterModel' => $showsymtom,
+                                'dataProvider' => $showsymtomsearch ,
+                                'filterModel' => $showsymtomprovider,
                                 'columns' => [
                                     [
                                         'header' => 'ที่',
@@ -182,16 +182,68 @@ $this->registerJsFile(Yii::$app->request->baseUrl . '/js/hospital/symptom.js?t='
                                         'headerOptions' => ['width' => '23'],
                                     ],
                                     [
-                                        'attribute' => 'pasthistory',
+                                        'attribute' => 'id_patient',
                                         'header' => 'ชื่อคนไข้',
-                                        'value' => 'pasthistory',
-                                        'contentOptions' => ['style' => 'width: 50px;', 'align=center']
+                                        'value' => function ($data) {
+                                            $modelResultemp = ApiHr::getEmpNameForCreateByInIdcardpatient($data->id_patient);
+                                            return $modelResultemp['0']['Fullname'];
+                                        },
+                                        'contentOptions' => ['style' => 'width: 280px;', 'align=center']
                                     ],
+                                    [
+                                        'attribute' => 'id_doctor',
+                                        'header' => 'ผู้บันทึก',
+                                        //'value' => 'id_doctor',
+                                        'value' => function ($data) {
+                                            $modelResultemp = ApiHr::getEmpNameForCreateByInIdcard($data->id_doctor);
+                                            return $modelResultemp['0']['Fullname'];
+                                        },
+                                        'contentOptions' => ['style' => 'width: 500px;', 'align=center']
+                                    ],
+                                    [
+                                        'header' => 'วันที่บันทึกอาการ',
+                                        'value' => function ($data) {
+                                            return DateTime::ThaiDateTime($data->date);
+                                        },
+                                        'contentOptions' => ['style' => 'width: 100px;', 'align=center']
+                                    ],
+
                                     [
 
                                         'class' => 'yii\grid\ActionColumn',
                                         'header' => 'จัดการข้อมูลผู้ป่วย',
-                                        'template' => '{view} &nbsp;&nbsp; {update}  &nbsp;&nbsp; {delete}'
+                                        'template' => '{view} &nbsp;&nbsp; {update}  &nbsp;&nbsp; {delete}',
+                                        'buttons' => [
+                                            'update' => function ($url, $data) {
+                                                return Html::a('<img src="' . Yii::$app->request->baseUrl . '/images/global/edit-icon.png">', 'javascript:;', [
+                                                    'title' => 'แก้ไข',
+                                                    'onclick' => '(function($event) {
+                                                                        updatesymptom(' . $data->id . ',1);
+                                                                })();'
+                                                ]);
+                                            },
+
+//                                                        'delete' => function ($url, $data) {
+//                                                            return Html::a('<img src="' . Yii::$app->request->baseUrl . '/images/global/delete-icon.png">', 'javascript:;', [
+//                                                                'title' => 'ลบ',
+//                                                                'onclick' => '(function($event) {
+//                                                                        bootbox.confirm({
+//                                                                            size: "small",
+//                                                                           message:"<h4 class=\"btalert\">คุณแน่ใจว่าจะลบรายการ ' . $data->name . '? </h4>",
+//                                                                            callback: function(result){
+//                                                                                if(result==1) {
+//                                                                                    deletepatient (' . $data->id . ',1);
+//                                                                                }
+//                                                                            }
+//                                                                        });
+//
+//                                                                    })();'
+//                                                            ]);
+//                                                        },
+                                        ],
+
+                                        'contentOptions' => ['style' => 'width: 200px;', 'align=center']
+
                                     ],
 
 

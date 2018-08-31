@@ -73,12 +73,23 @@ class Symtom extends \yii\db\ActiveRecord
         ];
     }
 
-    public function search($params)
+    public function search($params,$doctorid = null)
     {
-        $data = Symtom::find();
+
+
+        $arrCond = [];
+        if($doctorid == null || $doctorid  == 0) {  // ALL RECORD
+            $arrCond = [];
+        }
+        else {
+            $arrCond['id_doctor']  = $doctorid;
+        }
+
+        $data = Symtom::find()->where($arrCond);
         $this->load($params);
-        $data->andFilterWhere(['like','pasthistory',$this->id_doctor]);
-        return $dataProvider = new ActiveDataProvider([
+        $data->andFilterWhere(['like','id_doctor',$this->id_doctor]);
+        $data->andFilterWhere(['like','id_patient',$this->id_patient]);
+        return $dataProvider =  new ActiveDataProvider([
             'query' => $data,
             'pagination' => [
                 'pageSize' => 20,

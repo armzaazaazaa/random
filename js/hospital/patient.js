@@ -115,12 +115,12 @@ function savepatient() {//อันนี้นี้เซฟเน้อออ
         success: function (data) {
             console.log(data);
             if (parseInt(data) == 1) {
-                showSaveSuccess();
+             //   showSaveSuccess();
                 initForm('frmAddpatient');
                 $.pjax.reload({container: "#pjax_tb_patient"});  //Reload GridView
             }
             else {
-                showSaveError();
+               // showSaveError();
             }
         }
     });
