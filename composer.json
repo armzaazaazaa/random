@@ -42,7 +42,9 @@
     "zendframework/zend-barcode": "^2.6",
     "firebase/php-jwt": "~3.0.0",
     "kartik-v/yii2-widget-select2": "@dev",
-    "cornernote/yii2-linkall": "*"
+    "cornernote/yii2-linkall": "*",
+    "perminder-klair/yii2-dropzone": "dev-master",
+    "yiisoft/yii2-bootstrap4": "~1.0.0"
   },
   "dependencies": {
     "select2": "~4.0"
@@ -79,7 +81,9 @@
           "yii": "0755"
         }
       ]
+
     },
+
     "asset-installer-paths": {
       "npm-asset-library": "vendor/npm",
       "bower-asset-library": "vendor/bower"
