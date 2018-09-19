@@ -1,0 +1,1361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c27a57c6-620d-45f1-b7bf-43e929beec16" name="Default" comment="31กันยายน">
+      <change afterPath="$PROJECT_DIR$/upload/1200px-UPLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/1560100306369.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/2159.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/3560500575223.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/EER.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/ERRR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/UP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/logodmr-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/random/question1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/random/question2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/ApiHr.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/ApiHr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/RandomController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/RandomController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/aeedy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/gitreport/bullet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/gitreport/gitreport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/gitreport/protovis-r3.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/gitreport/protovis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/gitreport/protovis.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/gitreport/update_issue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/global/accounting.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/global/accounting.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/global/validator.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/global/validator.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hospital/from.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hospital/hospital.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/random/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hospital/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hospital/patient.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hospital/symptom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/OrgchartLoad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/OrgchartLoadView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/OrgchartManage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/OrgchartViewOnly.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/company.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/department.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/emptyposition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/emptypositiondata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/js/goDoc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/js/goSamples.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/js/goSamplesView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/js/highlight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/js/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/jsDatatable/THSarabunNew.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/jsDatatable/THSarabunNew_Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/jsDatatable/THSarabunNew_BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/jsDatatable/THSarabunNew_Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/jsDatatable/buttons.flash.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/jsDatatable/buttons.html5.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/jsDatatable/buttons.print.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/jsDatatable/dataTables.buttons.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/jsDatatable/jquery-1.12.4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/jsDatatable/jquery.dataTables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/jsDatatable/jszip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/jsDatatable/leelawad-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/jsDatatable/pdfmake.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/jsDatatable/vfs_fonts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/level.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/organizechart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/position.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/section.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/OU/worktype.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/approvedrequest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/autocomplete-0.3.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/bootstrap-filestyle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/bootstrap-multiselect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/bootstrap-treeview/__dist/bootstrap-treeview.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/bootstrap-treeview/__dist/bootstrap-treeview.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/bootstrap-treeview/dist/bootstrap-treeview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/bootstrap-treeview/dist/bootstrap-treeview.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/bootstrap-treeview/dist/bootstrap-treeview.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/dataInspector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/dataTables.bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/daterangepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/dom-to-image-master/dist/FileSaver.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/dom-to-image-master/dist/dom-to-image.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/formaddnewemp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/go.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/adapters/standalone-framework.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/adapters/standalone-framework.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/highcharts-3d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/highcharts-3d.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/highcharts-more.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/highcharts-more.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/highcharts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/highcharts.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/jquery-2.2.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/boost.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/boost.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/broken-axis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/broken-axis.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/canvas-tools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/canvas-tools.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/data.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/drilldown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/drilldown.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/exporting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/exporting.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/funnel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/funnel.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/heatmap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/heatmap.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/no-data-to-display.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/no-data-to-display.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/offline-exporting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/offline-exporting.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/solid-gauge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/solid-gauge.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/themes/dark-blue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/themes/dark-green.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/themes/dark-unica.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/themes/gray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/themes/grid-light.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/themes/grid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/themes/sand-signika.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/highchart/themes/skies.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/historyot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/homedefault.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/jquery-1.12.4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/jquery-chart/add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/jquery-chart/delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/jquery-chart/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/jquery-chart/jquery.orgchart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/jquery-chart/jquery.orgchart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/jquery-chart/jquery.orgchart.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/jquery-chart/jquery.orgchart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/jquery-chart/show-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/jquery.dataTables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/jquery.datetimepicker.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/jquery.datetimepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/jquery.orgchart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/managemonthly.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/managerequest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/master/benefit_incomestructure.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/master/configpersonalgeneral.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/master/org_configmaster.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/master/ot_activity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/master/ot_configpayroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/master/ot_profileroute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/master/payroll_config_template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/master/payrollsetting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/master/savebbloodgroup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/master/savebdegreeeducation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/master/savebleveleducation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/master/savebstatuseducation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/master/savebstatuspersonal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/master/savebtitel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/master/saveconfigmapsso.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/master/saveinstitutioneducation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/master/sso_incomestructure.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/menulink.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payroll/MonthPicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payroll/adddeductbydept.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payroll/adjustsalary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payroll/approveddeductbydept.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payroll/approvedsalary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payroll/checkdeduct.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payroll/checkexpense.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payroll/deductionsthismonth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payroll/deptdeductlist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payroll/expensesallmonth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payroll/expensesdeductallmonth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payroll/expensesdeducthismonth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payroll/expensesthismonth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payroll/exporttorevenues.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payroll/histexpense.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payroll/historydeductbydept.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payroll/makesalary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payroll/ot_approvedot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payroll/ot_edit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payroll/ot_historyapproved.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payroll/ot_historyapprovedhr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payroll/ot_historyot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payroll/ot_listhr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payroll/ot_manageot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payroll/ot_paidot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payroll/paysliphr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payroll/searchandedit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payroll/validatesalary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payrollexport/exporttobank.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payrollextra/confirmdeduction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payrollextra/exportfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payrollextra/inputform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payrollextra/makededuction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payrollextra/reportdeduction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/payrollextra/showdeduction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/permission/js/jquery.sumoselect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/permission/js/jquery.sumoselect.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/permission/permission.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/permission/permissionSearch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/permission/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/personal/searchemp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/personalexport/personalexport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/personalreport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/personalsalary/histdeduct.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/personalsalary/position.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/report/accountreport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/select2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/slip/personalslip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/sso/payrollecport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/sso/ssohistory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tax/tax_income_mapp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tax/tax_income_mapping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tax/tax_income_section.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tax/tax_income_structure.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tax/tax_income_type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tax/tax_reduce_other.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/taxhist/taxpersonal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/taxhist/taxpersonalsearch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/LICENSE.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/jquery.tinymce.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/langs/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/advlist/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/anchor/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/autolink/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/autoresize/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/autosave/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/bbcode/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/charmap/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/code/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/codesample/css/prism.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/codesample/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/colorpicker/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/contextmenu/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/directionality/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-cool.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-cry.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-embarassed.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-frown.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-innocent.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-kiss.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-laughing.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-sealed.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-surprised.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-undecided.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-wink.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-yell.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/example/dialog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/example/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/example_dependency/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/fullpage/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/fullscreen/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/hr/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/image/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/imagetools/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/importcss/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/insertdatetime/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/legacyoutput/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/lineheight/langs/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/lineheight/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/lineheight/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/link/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/lists/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/media/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/nonbreaking/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/noneditable/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/pagebreak/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/paste/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/preview/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/print/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/save/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/searchreplace/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/spellchecker/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/tabfocus/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/table/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/template/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/textcolor/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/textpattern/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/toc/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/visualblocks/css/visualblocks.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/visualblocks/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/visualchars/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/wordcount/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/content.inline.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/content.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-small.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-small.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-small.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-small.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/fonts/tinymce.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/fonts/tinymce.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/fonts/tinymce.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/fonts/tinymce.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/img/anchor.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/img/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/img/object.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/img/trans.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/skin.ie7.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/skin.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/themes/inlite/theme.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/themes/modern/theme.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/tinymce.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hr/urlpathconfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/login/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/select2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/bootstrap-multiselect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/checkValidate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/dataTables.bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/daterangepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/adapters/standalone-framework.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/adapters/standalone-framework.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/highcharts-3d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/highcharts-3d.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/highcharts-more.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/highcharts-more.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/highcharts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/highcharts.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/jquery-2.2.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/boost.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/boost.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/broken-axis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/broken-axis.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/canvas-tools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/canvas-tools.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/data.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/drilldown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/drilldown.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/exporting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/exporting.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/funnel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/funnel.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/heatmap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/heatmap.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/no-data-to-display.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/no-data-to-display.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/offline-exporting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/offline-exporting.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/solid-gauge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/solid-gauge.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/treemap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/treemap.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/themes/dark-blue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/themes/dark-green.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/themes/dark-unica.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/themes/gray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/themes/grid-light.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/themes/grid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/themes/sand-signika.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/themes/skies.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/jquery.dataTables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/jquery.datetimepicker.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/jquery.datetimepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/jquery.slimscroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/select2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webreport/webreport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/zoom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Doctor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/File.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Hptpatient.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/HptpatientSearch.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Patient.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/PatientSearch.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Send.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Symtom.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0002.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0005.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0012.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0013.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0014.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0017.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0024.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0025.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0026.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0027.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0029.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0030.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0031.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0033.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0034.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/20413929_1661070117267969_9137008952728802152_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/32984758_1679981978752528_2933743141712297984_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/Analysis-and-programming-processes-3840x2160.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/abstract-hud.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/code-wallpaper-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/d4c17d48d9e0a5ac9986887163f435ec.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/despicable-me-2-wallpaper-1080p-1-desktop-despicable-me-dbd-bluebird-tehparadox-on-wallpaper-hd-images-of-mobile-phones.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/despicable-me-minions-wallpaper-wallpaper-minion-pictures-despicable-bergerak-agnes-hd-banana-minions-despicable-me-minions-cartoon-hd-wallpaper-1920x1080-7988.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/dist.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/download-movie-despicable-me-minion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/hello/from.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/hello/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/hptpatient/_form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/hptpatient/_search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/hptpatient/create.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/hptpatient/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/hptpatient/update.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/hptpatient/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/login/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/random/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/random/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/random/resume.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/random/resume.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/themes/views/layouts/left.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/themes/views/layouts/left.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/random/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="93" column="54" selection-start-line="93" selection-start-column="54" selection-end-line="93" selection-end-column="54" />
+              <folding>
+                <element signature="e#57#78#0#PHP" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Widget.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/base/Widget.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="84" column="27" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiHr.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/ApiHr.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+              <folding>
+                <element signature="e#115#134#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/random/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RandomController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/RandomController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
+              <folding>
+                <element signature="e#36#59#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="db.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Randorm.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/Randorm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+              <folding>
+                <element signature="e#30#38#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resume.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/random/resume.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1110">
+              <caret line="74" column="42" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="left.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/themes/views/layouts/left.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="82" selection-start-line="26" selection-start-column="82" selection-end-line="26" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&quot;perminder-klair/yii2-dropzone&quot;: &quot;dev-master&quot;</find>
+      <find>timeline</find>
+      <find>parser</find>
+      <find>tele</find>
+      <find>extra</find>
+      <find>stable</find>
+      <find>homeUrl</find>
+      <find>watc</find>
+      <find>index</find>
+      <find>btnSaveActivityjobmaster</find>
+      <find>modalfrmAddjobmaster</find>
+      <find>frmAddjobmaster</find>
+      <find>technician_level_name</find>
+      <find>level_code</find>
+      <find>_activityedit_jobmaster</find>
+      <find>btnSave</find>
+      <find>hide_activityedit_jobmaster</find>
+      <find>pjax_tb_jobmaster</find>
+      <find>activity</find>
+      <find>frmAdd</find>
+      <find>thelength</find>
+      <find>btnAddNewjobmaster</find>
+      <find>btnAddNew</find>
+      <find>modalfrm</find>
+      <find>btnsave</find>
+      <find>xmlns</find>
+      <find>randorm</find>
+      <find>pjax</find>
+      <find>tabselect</find>
+      <find>getEmpNameForCreateByInIdcard</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/js</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/views/teleecho/_search.php" />
+        <option value="$PROJECT_DIR$/views/teleecho/create.php" />
+        <option value="$PROJECT_DIR$/js/global/master-utility-function.js" />
+        <option value="$PROJECT_DIR$/js/global/validator.min.js" />
+        <option value="$PROJECT_DIR$/views/teleecho/view.php" />
+        <option value="$PROJECT_DIR$/models/Patient.php" />
+        <option value="$PROJECT_DIR$/views/themes/adminlte/site/login.php" />
+        <option value="$PROJECT_DIR$/models/IdentityInterface.php" />
+        <option value="$PROJECT_DIR$/models/Doctor.php" />
+        <option value="$PROJECT_DIR$/models/LoginForm.php" />
+        <option value="$PROJECT_DIR$/config/web.php" />
+        <option value="$PROJECT_DIR$/views/hello/index.php" />
+        <option value="$PROJECT_DIR$/views/site/index.php" />
+        <option value="$PROJECT_DIR$/views/login/index.php" />
+        <option value="$PROJECT_DIR$/controllers/LoginController.php" />
+        <option value="$PROJECT_DIR$/js/aeedy.js" />
+        <option value="$PROJECT_DIR$/js/login/login.js" />
+        <option value="$PROJECT_DIR$/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/views/teleecho/index.php" />
+        <option value="$PROJECT_DIR$/js/hospital/patient.js" />
+        <option value="$PROJECT_DIR$/views/teleecho/patient.php" />
+        <option value="$PROJECT_DIR$/js/hospital/symptom.js" />
+        <option value="$PROJECT_DIR$/models/Symtom.php" />
+        <option value="$PROJECT_DIR$/views/teleecho/results.php" />
+        <option value="$PROJECT_DIR$/js/uplod.js" />
+        <option value="$PROJECT_DIR$/css/uplod.css" />
+        <option value="$PROJECT_DIR$/views/teleecho/uplod.php" />
+        <option value="$PROJECT_DIR$/views/teleecho/parser.php" />
+        <option value="$PROJECT_DIR$/js/zoom.js" />
+        <option value="$PROJECT_DIR$/views/teleecho/upload.php" />
+        <option value="$PROJECT_DIR$/views/teleecho/viewupload.php" />
+        <option value="$PROJECT_DIR$/controllers/TeleechoController.php" />
+        <option value="$PROJECT_DIR$/views/teleecho/department.php" />
+        <option value="$PROJECT_DIR$/views/teleecho/symptom.php" />
+        <option value="$PROJECT_DIR$/views/themes/views/site/login.php" />
+        <option value="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Application.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/vendor/yiisoft/yii2/web/Application.php" />
+        <option value="$PROJECT_DIR$/views/themes/views/layouts/header.php" />
+        <option value="$PROJECT_DIR$/views/random/resume.php" />
+        <option value="$PROJECT_DIR$/views/random/question2.php" />
+        <option value="$PROJECT_DIR$/views/random/question1.php" />
+        <option value="$PROJECT_DIR$/views/themes/views/layouts/left.php" />
+        <option value="$PROJECT_DIR$/config/db.php" />
+        <option value="$PROJECT_DIR$/models/Randorm_o.php" />
+        <option value="$PROJECT_DIR$/models/Randorm.php" />
+        <option value="$PROJECT_DIR$/api/ApiHr.php" />
+        <option value="$PROJECT_DIR$/views/random/index.php" />
+        <option value="$PROJECT_DIR$/js/random/index.js" />
+        <option value="$PROJECT_DIR$/controllers/RandomController.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/assets/6dd93218/package.json" />
+      <path value="$PROJECT_DIR$/assets/a83fc925/package.json" />
+      <path value="$PROJECT_DIR$/assets/d9aa295f/package.json" />
+      <path value="$PROJECT_DIR$/assets/e8bea192/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/behat/gherkin" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/php-diff" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-gii" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-debug" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-composer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-faker" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/jquery" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/inputmask" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/yii2-pjax" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/bootstrap" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/typeahead.js" />
+      <path value="$PROJECT_DIR$/vendor/cebe/markdown" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/punycode" />
+      <path value="$PROJECT_DIR$/vendor/codeception/base" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/codeception/specify" />
+      <path value="$PROJECT_DIR$/vendor/codeception/verify" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/codeception/phpunit-wrapper" />
+      <path value="$PROJECT_DIR$/vendor/codeception/stub" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/almasaeed2010/adminlte" />
+      <path value="$PROJECT_DIR$/vendor/rmrevin/yii2-fontawesome" />
+      <path value="$PROJECT_DIR$/vendor/fortawesome/font-awesome" />
+      <path value="$PROJECT_DIR$/vendor/dmstr/yii2-adminlte-asset" />
+      <path value="$PROJECT_DIR$/vendor/cebe/yii2-gravatar" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-widget-typeahead" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-widget-spinner" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-krajee-base" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-widget-switchinput" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-widget-sidenav" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-widget-timepicker" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-widget-touchspin" />
+      <path value="$PROJECT_DIR$/vendor/yurkinx/yii2-image" />
+      <path value="$PROJECT_DIR$/vendor/2amigos/yii2-date-picker-widget" />
+      <path value="$PROJECT_DIR$/vendor/2amigos/yii2-gallery-widget" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/blueimp-gallery" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/bootstrap-datepicker" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-widget-select2" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/bootstrap-star-rating" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-widget-fileinput" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-widget-rating" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-widget-activeform" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-widget-datepicker" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/dependent-dropdown" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-widget-depdrop" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-widget-alert" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-widget-rangeinput" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/bootstrap-fileinput" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-widgets" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-widget-growl" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-widget-affix" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-widget-datetimepicker" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-widget-colorinput" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/miloschuman/yii2-highcharts-widget" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/highcharts" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/container-interop/container-interop" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-validator" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-barcode" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-stdlib" />
+      <path value="$PROJECT_DIR$/vendor/imagine/imagine" />
+      <path value="$PROJECT_DIR$/vendor/setasign/fpdi" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/mpdf" />
+      <path value="$PROJECT_DIR$/vendor/pheme/yii2-toggle-column" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/2amigos/yii2-switch-widget" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-imagine" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-mpdf" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-redis" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/bootstrap-switch" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/jquery.inputmask" />
+      <path value="$PROJECT_DIR$/vendor/bower/jquery" />
+      <path value="$PROJECT_DIR$/vendor/bower/punycode" />
+      <path value="$PROJECT_DIR$/vendor/bower/admin-lte" />
+      <path value="$PROJECT_DIR$/vendor/bower/bootstrap" />
+      <path value="$PROJECT_DIR$/vendor/bower/inputmask" />
+      <path value="$PROJECT_DIR$/vendor/bower/jquery-ui" />
+      <path value="$PROJECT_DIR$/vendor/bower/yii2-pjax" />
+      <path value="$PROJECT_DIR$/vendor/bower/highcharts" />
+      <path value="$PROJECT_DIR$/vendor/bower/typeahead.js" />
+      <path value="$PROJECT_DIR$/vendor/bower/bootstrap-switch" />
+      <path value="$PROJECT_DIR$/vendor/bower/jquery.inputmask" />
+      <path value="$PROJECT_DIR$/vendor/bower/bootstrap3-dialog" />
+      <path value="$PROJECT_DIR$/vendor/cornernote/yii2-linkall" />
+      <path value="$PROJECT_DIR$/vendor/perminder-klair/yii2-dropzone" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="22" />
+    <option name="width" value="1920" />
+    <option name="height" value="1143" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="random" type="b2602c69:ProjectViewProjectNode" />
+              <item name="random" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="random" type="b2602c69:ProjectViewProjectNode" />
+              <item name="random" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="random" type="b2602c69:ProjectViewProjectNode" />
+              <item name="random" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="random" type="b2602c69:ProjectViewProjectNode" />
+              <item name="random" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="random" type="b2602c69:ProjectViewProjectNode" />
+              <item name="random" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="random" type="b2602c69:ProjectViewProjectNode" />
+              <item name="random" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="random" type="b2602c69:ProjectViewProjectNode" />
+              <item name="random" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="random" type="b2602c69:ProjectViewProjectNode" />
+              <item name="random" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="random" type="b2602c69:ProjectViewProjectNode" />
+              <item name="random" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="random" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="random" type="b2602c69:ProjectViewProjectNode" />
+              <item name="random" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/upload" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/js/global" />
+      <recent name="$PROJECT_DIR$/api" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c27a57c6-620d-45f1-b7bf-43e929beec16" name="Default" comment="" />
+      <created>1528440865223</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528440865223</updated>
+      <workItem from="1528440866403" duration="6480000" />
+      <workItem from="1528452629401" duration="31340000" />
+      <workItem from="1530787952830" duration="3505000" />
+      <workItem from="1531574215207" duration="215000" />
+      <workItem from="1531578434415" duration="7160000" />
+      <workItem from="1531717825074" duration="10219000" />
+      <workItem from="1532056072898" duration="10036000" />
+      <workItem from="1532516035175" duration="334000" />
+      <workItem from="1534408015559" duration="4293000" />
+      <workItem from="1534906773897" duration="266000" />
+      <workItem from="1534910449196" duration="3748000" />
+      <workItem from="1534993668193" duration="7561000" />
+      <workItem from="1535077982970" duration="27000" />
+      <workItem from="1535086630506" duration="9913000" />
+      <workItem from="1535289092559" duration="481000" />
+      <workItem from="1535601411323" duration="18518000" />
+      <workItem from="1535894757293" duration="425000" />
+      <workItem from="1535966578022" duration="30063000" />
+      <workItem from="1536553565366" duration="663000" />
+      <workItem from="1536574685916" duration="819000" />
+      <workItem from="1537158815068" duration="33123000" />
+    </task>
+    <task id="LOCAL-00001" summary="ok">
+      <created>1535617927733</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535617927733</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="179189000" />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29925454" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298279" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50159746" side_tool="true" weight="0.4097778" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49946752" weight="0.25866666" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49840257" visible="true" weight="0.4097778" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32977778" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ok" />
+    <MESSAGE value="31กันยายน" />
+    <option name="LAST_COMMIT_MESSAGE" value="31กันยายน" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/upload/20413929_1661070117267969_9137008952728802152_o.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/1528454762317.jpg" />
+    <entry file="file://$PROJECT_DIR$/views/teleecho/patient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/sys/notepad-icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/sys/Recycle-Bin-Full-icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/6083055c68ee7071f05e61f01aa253c6.jpg" />
+    <entry file="file://$PROJECT_DIR$/js/upload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="3529" column="1" selection-start-line="3529" selection-start-column="1" selection-end-line="3529" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/hello/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="41" column="97" selection-start-line="41" selection-start-column="75" selection-end-line="41" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/zoom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="134174" selection-start-line="5" selection-start-column="134174" selection-end-line="5" selection-end-column="134174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/web/UploadedFile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="109" column="27" selection-start-line="109" selection-start-column="27" selection-end-line="109" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/File.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="62" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/teleecho/parser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/teleecho/viewupload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/teleecho/symptom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3885">
+          <caret line="283" column="61" selection-start-line="283" selection-start-column="61" selection-end-line="283" selection-end-column="61" />
+          <folding>
+            <element signature="e#6#96#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/themes/views/site/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="52" column="51" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="51" />
+          <folding>
+            <element signature="e#7#28#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/teleecho/upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <folding>
+            <element signature="e#6#95#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/TeleechoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <element signature="e#10849#11768#0#PHP" />
+            <element signature="e#12476#13455#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/teleecho/results.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="41" lean-forward="true" selection-start-line="30" selection-end-line="44" selection-end-column="41" />
+          <folding>
+            <element signature="e#116#137#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/HelloController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/teleecho/department.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="e#117#138#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/22d51d8f/css/AdminLTE.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8507">
+          <caret line="6" column="90693" selection-start-line="6" selection-start-column="90693" selection-end-line="6" selection-end-column="90693" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/themes/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/themes/views/layouts/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2456" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap-grid.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/web/UrlManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1172">
+          <caret line="504" column="82" lean-forward="true" selection-start-line="504" selection-start-column="82" selection-end-line="504" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/web/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+          <folding>
+            <element signature="e#172#180#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/base/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="183" column="46" selection-start-line="183" selection-start-column="41" selection-end-line="183" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/themes/views/layouts/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="1004" column="9" selection-start-line="1004" selection-start-column="9" selection-end-line="1004" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/random/question2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/random/question1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="59" column="66" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="66" />
+          <folding>
+            <element signature="n#style#0;n#B#0;n#center#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/themes/views/layouts/left.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="82" selection-start-line="26" selection-start-column="82" selection-end-line="26" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="1363" column="5" selection-start-line="1363" selection-start-column="5" selection-end-line="1363" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/web/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/web/View.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="496" column="20" selection-start-line="496" selection-start-column="20" selection-end-line="496" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/global/bootbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#97#104#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/global/master-utility-function.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1067">
+          <caret line="226" column="9" selection-start-line="226" selection-start-column="9" selection-end-line="226" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/data/ActiveDataProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Randorm_o.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/random/resume.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="74" column="42" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Randorm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+          <folding>
+            <element signature="e#30#38#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/random/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/random/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="93" column="54" selection-start-line="93" selection-start-column="54" selection-end-line="93" selection-end-column="54" />
+          <folding>
+            <element signature="e#57#78#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/base/Widget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="84" column="27" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/ApiHr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+          <folding>
+            <element signature="e#115#134#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/RandomController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#36#59#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

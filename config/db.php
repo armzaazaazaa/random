@@ -2,7 +2,7 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=teleecho',
+    'dsn' => 'mysql:host=localhost;dbname=diversition',
     'username' => 'root',
     'password' => '',
     'charset' => 'utf8',

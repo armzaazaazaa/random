@@ -1,1 +1,0 @@
-var PATH = "http://localhost/";

@@ -1,0 +1,27 @@
+{
+    "name": "cornernote/yii2-linkall",
+    "description": "Behavior to handle saving multiple many to many related records in Yii2.",
+    "keywords": ["yii2", "link", "linkall", "many to many"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Brett O'Donnell",
+            "email": "cornernote@gmail.com",
+            "homepage": "http://mrphp.com.au/"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*",
+        "phpunit/dbunit": "~1.0",
+        "scrutinizer/ocular": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "cornernote\\linkall\\": "src"
+        }
+    }
+}
