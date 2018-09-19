@@ -21,8 +21,8 @@ $this->title = '';
     <div class="box-body">
         <div class="row">
             <div class="col-lg-12">
-
-                sdfsdf
+                <p class="col-lg-12">คลีนซิ่งcodeที่เคยได้ echo หรือ print_r หรือ console.log </p>
+                <p class="col-lg-12">เขียนโคดให้คลีนที่สุด </p>
 
             </div>
         </div>

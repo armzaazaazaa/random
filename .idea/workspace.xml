@@ -2,423 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c27a57c6-620d-45f1-b7bf-43e929beec16" name="Default" comment="31กันยายน">
-      <change afterPath="$PROJECT_DIR$/upload/1200px-UPLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/1560100306369.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/2159.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/3560500575223.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/EER.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/ERRR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/UP.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/logodmr-150x150.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/random/question1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/random/question2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/ApiHr.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/ApiHr.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/RandomController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/RandomController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/aeedy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/gitreport/bullet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/gitreport/gitreport.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/gitreport/protovis-r3.2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/gitreport/protovis.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/gitreport/protovis.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/gitreport/update_issue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/global/accounting.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/global/accounting.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/global/validator.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/global/validator.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hospital/from.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hospital/hospital.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/random/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hospital/jquery-ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hospital/patient.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hospital/symptom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/OrgchartLoad.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/OrgchartLoadView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/OrgchartManage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/OrgchartViewOnly.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/company.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/department.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/emptyposition.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/emptypositiondata.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/js/goDoc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/js/goSamples.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/js/goSamplesView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/js/highlight.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/js/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/jsDatatable/THSarabunNew.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/jsDatatable/THSarabunNew_Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/jsDatatable/THSarabunNew_BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/jsDatatable/THSarabunNew_Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/jsDatatable/buttons.flash.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/jsDatatable/buttons.html5.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/jsDatatable/buttons.print.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/jsDatatable/dataTables.buttons.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/jsDatatable/jquery-1.12.4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/jsDatatable/jquery.dataTables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/jsDatatable/jszip.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/jsDatatable/leelawad-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/jsDatatable/pdfmake.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/jsDatatable/vfs_fonts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/level.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/organizechart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/position.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/section.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/OU/worktype.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/approvedrequest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/autocomplete-0.3.0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/bootstrap-filestyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/bootstrap-multiselect.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/bootstrap-treeview/__dist/bootstrap-treeview.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/bootstrap-treeview/__dist/bootstrap-treeview.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/bootstrap-treeview/dist/bootstrap-treeview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/bootstrap-treeview/dist/bootstrap-treeview.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/bootstrap-treeview/dist/bootstrap-treeview.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/dataInspector.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/dataTables.bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/daterangepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/dom-to-image-master/dist/FileSaver.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/dom-to-image-master/dist/dom-to-image.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/formaddnewemp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/go.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/adapters/standalone-framework.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/adapters/standalone-framework.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/highcharts-3d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/highcharts-3d.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/highcharts-more.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/highcharts-more.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/highcharts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/highcharts.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/jquery-2.2.4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/boost.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/boost.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/broken-axis.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/broken-axis.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/canvas-tools.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/canvas-tools.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/data.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/drilldown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/drilldown.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/exporting.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/exporting.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/funnel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/funnel.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/heatmap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/heatmap.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/no-data-to-display.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/no-data-to-display.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/offline-exporting.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/offline-exporting.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/solid-gauge.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/modules/solid-gauge.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/themes/dark-blue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/themes/dark-green.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/themes/dark-unica.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/themes/gray.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/themes/grid-light.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/themes/grid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/themes/sand-signika.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/highchart/themes/skies.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/historyot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/homedefault.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/jquery-1.12.4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/jquery-chart/add.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/jquery-chart/delete.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/jquery-chart/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/jquery-chart/jquery.orgchart.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/jquery-chart/jquery.orgchart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/jquery-chart/jquery.orgchart.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/jquery-chart/jquery.orgchart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/jquery-chart/show-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/jquery-ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/jquery.dataTables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/jquery.datetimepicker.full.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/jquery.datetimepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/jquery.orgchart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/managemonthly.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/managerequest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/master/benefit_incomestructure.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/master/configpersonalgeneral.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/master/org_configmaster.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/master/ot_activity.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/master/ot_configpayroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/master/ot_profileroute.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/master/payroll_config_template.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/master/payrollsetting.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/master/savebbloodgroup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/master/savebdegreeeducation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/master/savebleveleducation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/master/savebstatuseducation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/master/savebstatuspersonal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/master/savebtitel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/master/saveconfigmapsso.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/master/saveinstitutioneducation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/master/sso_incomestructure.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/menulink.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/moment.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payroll/MonthPicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payroll/adddeductbydept.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payroll/adjustsalary.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payroll/approveddeductbydept.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payroll/approvedsalary.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payroll/checkdeduct.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payroll/checkexpense.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payroll/deductionsthismonth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payroll/deptdeductlist.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payroll/expensesallmonth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payroll/expensesdeductallmonth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payroll/expensesdeducthismonth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payroll/expensesthismonth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payroll/exporttorevenues.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payroll/histexpense.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payroll/historydeductbydept.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payroll/makesalary.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payroll/ot_approvedot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payroll/ot_edit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payroll/ot_historyapproved.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payroll/ot_historyapprovedhr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payroll/ot_historyot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payroll/ot_listhr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payroll/ot_manageot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payroll/ot_paidot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payroll/paysliphr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payroll/searchandedit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payroll/validatesalary.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payrollexport/exporttobank.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payrollextra/confirmdeduction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payrollextra/exportfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payrollextra/inputform.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payrollextra/makededuction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payrollextra/reportdeduction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/payrollextra/showdeduction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/permission/js/jquery.sumoselect.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/permission/js/jquery.sumoselect.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/permission/permission.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/permission/permissionSearch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/permission/upload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/personal/searchemp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/personalexport/personalexport.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/personalreport.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/personalsalary/histdeduct.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/personalsalary/position.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/report/accountreport.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/select2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/slip/personalslip.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/sso/payrollecport.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/sso/ssohistory.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tax/tax_income_mapp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tax/tax_income_mapping.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tax/tax_income_section.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tax/tax_income_structure.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tax/tax_income_type.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tax/tax_reduce_other.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/taxhist/taxpersonal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/taxhist/taxpersonalsearch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/LICENSE.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/changelog.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/jquery.tinymce.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/langs/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/advlist/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/anchor/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/autolink/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/autoresize/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/autosave/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/bbcode/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/charmap/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/code/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/codesample/css/prism.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/codesample/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/colorpicker/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/contextmenu/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/directionality/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-cool.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-cry.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-embarassed.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-frown.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-innocent.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-kiss.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-laughing.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-sealed.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-smile.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-surprised.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-undecided.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-wink.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/img/smiley-yell.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/emoticons/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/example/dialog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/example/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/example_dependency/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/fullpage/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/fullscreen/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/hr/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/image/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/imagetools/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/importcss/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/insertdatetime/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/legacyoutput/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/lineheight/langs/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/lineheight/plugin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/lineheight/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/link/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/lists/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/media/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/nonbreaking/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/noneditable/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/pagebreak/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/paste/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/preview/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/print/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/save/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/searchreplace/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/spellchecker/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/tabfocus/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/table/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/template/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/textcolor/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/textpattern/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/toc/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/visualblocks/css/visualblocks.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/visualblocks/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/visualchars/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/plugins/wordcount/plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/content.inline.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/content.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-small.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-small.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-small.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-small.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/fonts/tinymce.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/fonts/tinymce.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/fonts/tinymce.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/fonts/tinymce.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/img/anchor.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/img/loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/img/object.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/img/trans.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/skin.ie7.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/skins/lightgray/skin.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/themes/inlite/theme.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/themes/modern/theme.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tinymce/js/tinymce/tinymce.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/tooltip.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hr/urlpathconfig.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/login/login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/select2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/upload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/bootstrap-multiselect.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/checkValidate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/dataTables.bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/daterangepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/adapters/standalone-framework.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/adapters/standalone-framework.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/highcharts-3d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/highcharts-3d.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/highcharts-more.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/highcharts-more.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/highcharts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/highcharts.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/jquery-2.2.4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/boost.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/boost.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/broken-axis.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/broken-axis.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/canvas-tools.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/canvas-tools.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/data.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/drilldown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/drilldown.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/exporting.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/exporting.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/funnel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/funnel.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/heatmap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/heatmap.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/no-data-to-display.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/no-data-to-display.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/offline-exporting.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/offline-exporting.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/solid-gauge.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/solid-gauge.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/treemap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/modules/treemap.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/themes/dark-blue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/themes/dark-green.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/themes/dark-unica.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/themes/gray.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/themes/grid-light.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/themes/grid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/themes/sand-signika.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/highchart/themes/skies.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/jquery.dataTables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/jquery.datetimepicker.full.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/jquery.datetimepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/jquery.slimscroll.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/moment.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/select2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webreport/webreport.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/zoom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Doctor.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/File.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Hptpatient.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/HptpatientSearch.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Patient.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/PatientSearch.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Send.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Symtom.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0002.BMP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0005.BMP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0012.BMP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0013.BMP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0014.BMP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0017.BMP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0024.BMP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0025.BMP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0026.BMP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0027.BMP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0029.BMP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0030.BMP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0031.BMP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0033.BMP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/196928_20071207__0034.BMP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/20413929_1661070117267969_9137008952728802152_o.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/32984758_1679981978752528_2933743141712297984_o.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/Analysis-and-programming-processes-3840x2160.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/abstract-hud.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/code-wallpaper-8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/d4c17d48d9e0a5ac9986887163f435ec.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/despicable-me-2-wallpaper-1080p-1-desktop-despicable-me-dbd-bluebird-tehparadox-on-wallpaper-hd-images-of-mobile-phones.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/despicable-me-minions-wallpaper-wallpaper-minion-pictures-despicable-bergerak-agnes-hd-banana-minions-despicable-me-minions-cartoon-hd-wallpaper-1920x1080-7988.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/dist.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/download-movie-despicable-me-minion.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/hello/from.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/hello/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/hptpatient/_form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/hptpatient/_search.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/hptpatient/create.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/hptpatient/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/hptpatient/update.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/hptpatient/view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/login/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/miloschuman/yii2-highcharts-widget" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/miloschuman/yii2-highcharts-widget" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yurkinx/yii2-image" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yurkinx/yii2-image" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/random/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/random/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/random/resume.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/random/resume.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/themes/views/layouts/left.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/themes/views/layouts/left.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/random/question2.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/random/question2.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -432,15 +20,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/random/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="93" column="54" selection-start-line="93" selection-start-column="54" selection-end-line="93" selection-end-column="54" />
+            <state relative-caret-position="641">
+              <caret line="53" column="60" lean-forward="true" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
               <folding>
                 <element signature="e#57#78#0#PHP" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="question2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/random/question2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -487,18 +84,9 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="db.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/db.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file leaf-file-name="Randorm.php" pinned="false" current-in-tab="false">
@@ -516,17 +104,17 @@
       <file leaf-file-name="resume.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/random/resume.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
-              <caret line="74" column="42" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
+            <state relative-caret-position="435">
+              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="left.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/themes/views/layouts/left.php">
+      <file leaf-file-name="question1.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/random/question1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="82" selection-start-line="26" selection-start-column="82" selection-end-line="26" selection-end-column="82" />
+            <state relative-caret-position="15">
+              <caret line="59" column="66" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -561,7 +149,6 @@
       <find>btnSave</find>
       <find>hide_activityedit_jobmaster</find>
       <find>pjax_tb_jobmaster</find>
-      <find>activity</find>
       <find>frmAdd</find>
       <find>thelength</find>
       <find>btnAddNewjobmaster</find>
@@ -573,6 +160,7 @@
       <find>pjax</find>
       <find>tabselect</find>
       <find>getEmpNameForCreateByInIdcard</find>
+      <find>activity</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -627,17 +215,17 @@
         <option value="$PROJECT_DIR$/vendor/yiisoft/yii2/web/Application.php" />
         <option value="$PROJECT_DIR$/views/themes/views/layouts/header.php" />
         <option value="$PROJECT_DIR$/views/random/resume.php" />
-        <option value="$PROJECT_DIR$/views/random/question2.php" />
         <option value="$PROJECT_DIR$/views/random/question1.php" />
         <option value="$PROJECT_DIR$/views/themes/views/layouts/left.php" />
         <option value="$PROJECT_DIR$/config/db.php" />
         <option value="$PROJECT_DIR$/models/Randorm_o.php" />
         <option value="$PROJECT_DIR$/models/Randorm.php" />
         <option value="$PROJECT_DIR$/api/ApiHr.php" />
-        <option value="$PROJECT_DIR$/views/random/index.php" />
         <option value="$PROJECT_DIR$/js/random/index.js" />
         <option value="$PROJECT_DIR$/controllers/RandomController.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/views/random/question2.php" />
+        <option value="$PROJECT_DIR$/views/random/index.php" />
       </list>
     </option>
   </component>
@@ -790,7 +378,7 @@
       <path value="$PROJECT_DIR$/vendor/perminder-klair/yii2-dropzone" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1920" />
     <option name="height" value="1143" />
@@ -924,7 +512,7 @@
       <workItem from="1535966578022" duration="30063000" />
       <workItem from="1536553565366" duration="663000" />
       <workItem from="1536574685916" duration="819000" />
-      <workItem from="1537158815068" duration="33123000" />
+      <workItem from="1537158815068" duration="34398000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1535617927733</created>
@@ -937,7 +525,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179189000" />
+    <option name="totallyTimeSpent" value="180464000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -949,9 +537,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
+    <frame x="0" y="22" width="1920" height="1143" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29925454" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29925454" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298279" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50159746" side_tool="true" weight="0.4097778" />
@@ -960,7 +549,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49946752" weight="0.25866666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49840257" visible="true" weight="0.4097778" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49840257" weight="0.44072658" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1210,23 +799,6 @@
     <entry file="file://$PROJECT_DIR$/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/random/question2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/random/question1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret line="59" column="66" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="66" />
-          <folding>
-            <element signature="n#style#0;n#B#0;n#center#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/themes/views/layouts/left.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1285,13 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/random/resume.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="74" column="42" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1313,17 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/random/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="93" column="54" selection-start-line="93" selection-start-column="54" selection-end-line="93" selection-end-column="54" />
-          <folding>
-            <element signature="e#57#78#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1356,6 +910,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/random/question2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/random/resume.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/random/question1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="59" column="66" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/random/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="53" column="60" lean-forward="true" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
+          <folding>
+            <element signature="e#57#78#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

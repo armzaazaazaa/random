@@ -51,7 +51,7 @@ $this->registerJsFile(Yii::$app->request->baseUrl . '/js/random/index.js?t=' . t
                             <label>เลขที่ออก </label>
 
                                 <input type="text" size=21 name="output" id="randorm">
-                            <input type="hidden" name="thelength" size=3 value="3">
+                            จำนวนหลัก<input type="text" name="thelength" size=3 value="3">หลัก
 
                         </div>
 
